@@ -1,0 +1,49 @@
+body {
+    background-color: #333;
+    color: aliceblue;
+}
+
+code {
+    display: inline-block;
+    column-count: 2;
+    column-gap: 10vw;
+}
+
+.two-col pre {
+    margin: 3rem;
+    font-size: 1.2rem;
+}
+
+.ascii-art{
+    width: fit-content;
+    margin-left: calc(5vw + 480pt);
+}
+
+.three-col {
+    column-count: 3;
+    column-gap: .1rem;
+    font-size: .9rem;
+    margin: auto 5vw;
+}
+
+.btn {
+    color: #eee;
+    border: solid #eee;
+    text-decoration: none;
+    padding: .5rem .8rem;
+    border-radius: 3px;
+}
+
+@media screen and (orientation: portrait) {
+    .ascii-art {
+        margin-left: 7vw;
+    }
+
+    .two-col, .three-col {
+        column-count: auto;
+    }
+
+    .two-col pre, .three-col pre {
+        font-size: 1rem !important;
+    }
+}
