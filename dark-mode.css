@@ -6,6 +6,7 @@
 
     main {
         background-color: #333;
+        border: solid #055511 15px;
     }
 
     a, a:visited {
