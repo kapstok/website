@@ -1,0 +1,13 @@
+.gallery img {
+    max-height: 65vh;
+}
+
+main {
+    background-color: #048f00;
+    border: solid #aa2727 15px;
+    color: whitesmoke;
+}
+
+body {
+    background-color: #ff6f6f;
+}
